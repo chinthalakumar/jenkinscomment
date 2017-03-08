@@ -52,7 +52,7 @@ public class PipelineConsumer {
 		
 	
 		client = Client.create();
-		webResource = client.resource("http://localhost:8182/jenkins/job/").path(jobName).path(buildNum)
+		webResource = client.resource("http://192.168.2.126:8182/jenkins/job/").path(jobName).path(buildNum)
 				.path("/api/xml").queryParam("xpath", "//changeSet/item/msg");
 		
 
