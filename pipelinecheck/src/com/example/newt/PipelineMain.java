@@ -3,9 +3,7 @@ package com.example.newt;
 import java.io.IOException;
 
 public class PipelineMain {
-	//unit testings
-
-	
+	 	
 	
 	public static void main(String[] args) throws IOException
 	{
